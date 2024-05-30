@@ -8,7 +8,7 @@ export const defaultMessageDataOptions: IMessageDataOptions = {
     filterValue: '',
   },
   pagination: {
-    itemsPerPage: 10,
+    itemsPerPage: 100,
     page: 1,
   },
   sortBy: {
