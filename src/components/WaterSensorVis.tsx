@@ -1,5 +1,5 @@
 import * as d3 from 'd3';
-import { useEffect, useRef } from 'react';
+import { LegacyRef, useEffect, useRef } from 'react';
 import useDimensions from '../hooks/useDimensions';
 
 interface IProps {
@@ -10,9 +10,9 @@ interface IProps {
 }
 
 function WaterSensorVis(props: IProps) {
-  const chartRef = useRef();
-  const tooltipRef = useRef();
-  const chartContainerRef = useRef();
+  const chartRef = useRef<SVGSVGElement>();
+  const tooltipRef = useRef<HTMLDivElement>();
+  const chartContainerRef = useRef<HTMLDivElement>();
   // @ts-expect-error D3 doesn't like a ref
   const chartSize = useDimensions(chartContainerRef);
 
@@ -180,20 +180,24 @@ function WaterSensorVis(props: IProps) {
 
   return (
     <>
-      <div id="tooltip" className="tooltip" ref={tooltipRef}></div>
       <div
+        id="tooltip"
+        className="tooltip"
+        ref={tooltipRef as LegacyRef<HTMLDivElement>}
+      ></div>
+      <div
+        ref={chartContainerRef as LegacyRef<HTMLDivElement>}
         className="w-full rounded border border-slate-300"
-        ref={chartContainerRef}
       >
         <div className="rounded rounded-b-none bg-slate-500 px-2 py-1 text-sm text-white">
           <h3>Average river {props.yLabel}</h3>
         </div>
         <div className="p-2 text-slate-400">
           <svg
+            ref={chartRef as LegacyRef<SVGSVGElement>}
             id="barchart"
             width={chartSize.width}
             height={250}
-            ref={chartRef}
           />
           <p className="text-[11px] text-slate-400">
             Mouseover the bars to see sensor information
