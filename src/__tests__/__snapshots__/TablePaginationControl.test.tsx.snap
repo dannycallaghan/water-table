@@ -1,0 +1,46 @@
+// Vitest Snapshot v1
+
+exports[`TablePaginationControl > renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-row items-center gap-4"
+  >
+    <div>
+      <p
+        class="text-[0.7rem] uppercase text-gray-400"
+      >
+        PAGE 1 OF 1
+      </p>
+      <div
+        class="flex flex-row items-center gap-1"
+      >
+        <button
+          class="inline-block aspect-square w-8 rounded border border-slate-300 bg-white text-xs disabled:text-slate-300"
+          data-page="prev"
+          disabled=""
+        >
+          &lt;
+        </button>
+        <button
+          class="bg-[#063360] text-white inline-block aspect-square w-8 rounded border border-slate-300 text-xs disabled:text-slate-300"
+          data-page="1"
+        >
+          1
+        </button>
+        <button
+          class="inline-block aspect-square w-8 rounded border border-slate-300 bg-white text-xs disabled:text-slate-300"
+          data-page="next"
+          disabled=""
+        >
+          &gt;
+        </button>
+      </div>
+    </div>
+  </div>
+  <p
+    class="mt-1 text-[0.7rem] text-gray-400"
+  >
+    SHOWING 1 - 10 of 10
+  </p>
+</DocumentFragment>
+`;

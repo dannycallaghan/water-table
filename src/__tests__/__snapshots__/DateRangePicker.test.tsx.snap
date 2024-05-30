@@ -1,0 +1,826 @@
+// Vitest Snapshot v1
+
+exports[`DateRangePicker > renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="flex w-full max-w-56 flex-col"
+  >
+    <label
+      class="text-[0.7rem] text-gray-400"
+    >
+      FROM - TO
+    </label>
+    <div
+      class="relative w-full text-gray-700"
+    >
+      <input
+        autocomplete="off"
+        class="h-8 rounded border border-solid border-slate-300 p-1 text-[0.7rem] text-slate-600 focus:border-slate-300 active:border-slate-300 focus-visible:border-slate-300 w-full focus:outline-none"
+        defaultvalue=""
+        placeholder="DD/MM/YYYY - DD/MM/YYYY"
+        role="presentation"
+        type="text"
+      />
+      <button
+        class="absolute bg-white rounded border border-solid border-slate-300 text-slate-600 right-0 h-full px-3 border-l-0"
+        type="button"
+      >
+        <svg
+          class="h-5 w-5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <div
+        class="transition-all ease-out duration-300 absolute z-10 mt-[1px] text-sm lg:text-xs 2xl:text-sm translate-y-4 opacity-0 hidden"
+      >
+        <div
+          class="absolute z-20 h-4 w-4 rotate-45 mt-0.5 ml-[1.2rem] border-l border-t border-gray-300 bg-white dark:bg-slate-800 dark:border-slate-600"
+        />
+        <div
+          class="mt-2.5 shadow-sm border border-gray-300 px-1 py-0.5 bg-white dark:bg-slate-800 dark:text-white dark:border-slate-600 rounded-lg"
+        >
+          <div
+            class="flex flex-col lg:flex-row py-2"
+          >
+            <div
+              class="flex items-stretch flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-1.5 md:pl-1 pr-2 lg:pr-1"
+            >
+              <div
+                class="w-full md:w-[296px] md:min-w-[296px]"
+              >
+                <div
+                  class="flex items-center space-x-1.5 border border-gray-300 dark:border-gray-700 rounded-md px-2 py-1.5"
+                >
+                  <div
+                    class="flex-none"
+                  >
+                    <button
+                      class="dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 hover:bg-gray-100 rounded-full p-[0.45rem] focus:ring-1 focus:ring-blue-500/50 focus:bg-blue-100/50 "
+                      type="button"
+                    >
+                      <svg
+                        class="h-5 w-5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.75 19.5L8.25 12l7.5-7.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="flex flex-1 items-center space-x-1.5"
+                  >
+                    <div
+                      class="w-1/2"
+                    >
+                      <button
+                        class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-[0.55rem] uppercase hover:bg-gray-100 rounded-md focus:ring-1 focus:ring-blue-500/50 focus:bg-blue-100/50 "
+                        type="button"
+                      >
+                        May
+                      </button>
+                    </div>
+                    <div
+                      class="w-1/2"
+                    >
+                      <button
+                        class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-[0.55rem] uppercase hover:bg-gray-100 rounded-md focus:ring-1 focus:ring-blue-500/50 focus:bg-blue-100/50 "
+                        type="button"
+                      >
+                        2024
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="flex-none"
+                  >
+                    <button
+                      class="dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 hover:bg-gray-100 rounded-full p-[0.45rem] focus:ring-1 focus:ring-blue-500/50 focus:bg-blue-100/50 "
+                      type="button"
+                    >
+                      <svg
+                        class="h-5 w-5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="px-0.5 sm:px-2 mt-0.5 min-h-[285px]"
+                >
+                  <div
+                    class="grid grid-cols-7 border-b border-gray-300 dark:border-gray-700 py-2"
+                  >
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Sun
+                    </div>
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Mon
+                    </div>
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Tue
+                    </div>
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Wed
+                    </div>
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Thu
+                    </div>
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Fri
+                    </div>
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Sat
+                    </div>
+                  </div>
+                  <div
+                    class="grid grid-cols-7 gap-y-0.5 my-1"
+                  >
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      28
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      29
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      30
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      1
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      2
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      3
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      4
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      5
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      6
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      7
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      8
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      9
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      10
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      11
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      12
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      13
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      14
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      15
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      16
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      17
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      18
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      19
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      20
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      21
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      22
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      23
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      24
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      25
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      26
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      27
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      28
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      29
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-blue-500"
+                      type="button"
+                    >
+                      30
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      31
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      1
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      2
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      3
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      4
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      5
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      6
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      7
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      8
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex items-center"
+              >
+                <div
+                  class="bg-blue-500 h-7 w-1 rounded-full hidden md:block bg-blue-500"
+                />
+              </div>
+              <div
+                class="w-full md:w-[296px] md:min-w-[296px]"
+              >
+                <div
+                  class="flex items-center space-x-1.5 border border-gray-300 dark:border-gray-700 rounded-md px-2 py-1.5"
+                >
+                  <div
+                    class="flex-none"
+                  >
+                    <button
+                      class="dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 hover:bg-gray-100 rounded-full p-[0.45rem] focus:ring-1 focus:ring-blue-500/50 focus:bg-blue-100/50 "
+                      type="button"
+                    >
+                      <svg
+                        class="h-5 w-5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.75 19.5L8.25 12l7.5-7.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="flex flex-1 items-center space-x-1.5"
+                  >
+                    <div
+                      class="w-1/2"
+                    >
+                      <button
+                        class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-[0.55rem] uppercase hover:bg-gray-100 rounded-md focus:ring-1 focus:ring-blue-500/50 focus:bg-blue-100/50 "
+                        type="button"
+                      >
+                        Jun
+                      </button>
+                    </div>
+                    <div
+                      class="w-1/2"
+                    >
+                      <button
+                        class="w-full tracking-wide dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 px-3 py-[0.55rem] uppercase hover:bg-gray-100 rounded-md focus:ring-1 focus:ring-blue-500/50 focus:bg-blue-100/50 "
+                        type="button"
+                      >
+                        2024
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="flex-none"
+                  >
+                    <button
+                      class="dark:text-white/70 dark:hover:bg-white/10 dark:focus:bg-white/10  transition-all duration-300 hover:bg-gray-100 rounded-full p-[0.45rem] focus:ring-1 focus:ring-blue-500/50 focus:bg-blue-100/50 "
+                      type="button"
+                    >
+                      <svg
+                        class="h-5 w-5"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="px-0.5 sm:px-2 mt-0.5 min-h-[285px]"
+                >
+                  <div
+                    class="grid grid-cols-7 border-b border-gray-300 dark:border-gray-700 py-2"
+                  >
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Sun
+                    </div>
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Mon
+                    </div>
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Tue
+                    </div>
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Wed
+                    </div>
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Thu
+                    </div>
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Fri
+                    </div>
+                    <div
+                      class="tracking-wide text-gray-500 text-center"
+                    >
+                      Sat
+                    </div>
+                  </div>
+                  <div
+                    class="grid grid-cols-7 gap-y-0.5 my-1"
+                  >
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      26
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      27
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      28
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      29
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      30
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      31
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      1
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      2
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      3
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      4
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      5
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      6
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      7
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      8
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      9
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      10
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      11
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      12
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      13
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      14
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      15
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      16
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      17
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      18
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      19
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      20
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      21
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      22
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      23
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      24
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      25
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      26
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      27
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      28
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      29
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10"
+                      type="button"
+                    >
+                      30
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      1
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      2
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      3
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      4
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      5
+                    </button>
+                    <button
+                      class="flex items-center justify-center w-12 h-12 lg:w-10 lg:h-10 text-gray-400"
+                      type="button"
+                    >
+                      6
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

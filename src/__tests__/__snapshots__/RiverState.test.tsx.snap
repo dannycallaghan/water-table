@@ -1,0 +1,31 @@
+// Vitest Snapshot v1
+
+exports[`RiverState > renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="flex items-center justify-center rounded bg-red-400 px-1 text-[10px] uppercase text-white"
+  >
+    Falling
+  </div>
+</DocumentFragment>
+`;
+
+exports[`RiverState > renders correctly 2`] = `
+<DocumentFragment>
+  <div
+    class="flex items-center justify-center rounded bg-green-400 px-1 text-[10px] uppercase text-white"
+  >
+    Constant
+  </div>
+</DocumentFragment>
+`;
+
+exports[`RiverState > renders correctly 3`] = `
+<DocumentFragment>
+  <div
+    class="flex items-center justify-center rounded bg-yellow-400 px-1 text-[10px] uppercase text-slate-800"
+  >
+    Rising
+  </div>
+</DocumentFragment>
+`;

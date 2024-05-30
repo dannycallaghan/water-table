@@ -1,0 +1,5 @@
+@import './styles/d3.css';
+@import './styles/map.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

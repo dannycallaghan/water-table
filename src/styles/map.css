@@ -1,0 +1,23 @@
+.gm-style-iw {
+  box-shadow: none !important;
+  position: absolute;
+}
+
+.gm-style-iw-ch {
+  display: none !important;
+}
+
+.gm-style-iw-chr {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 200;
+}
+.gm-style-iw-d {
+  padding: 10px 0;
+  background-color: transparent;
+}
+
+.gm-style .gm-style-iw-tc {
+  filter: none !important;
+}

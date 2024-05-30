@@ -1,0 +1,39 @@
+// Vitest Snapshot v1
+
+exports[`MessageDirectionIcon > renders correctly 1`] = `
+<DocumentFragment>
+  <svg
+    class="size-4 text-blue-600"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+</DocumentFragment>
+`;
+
+exports[`MessageDirectionIcon > renders correctly 2`] = `
+<DocumentFragment>
+  <svg
+    class="size-4 text-blue-600"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+</DocumentFragment>
+`;

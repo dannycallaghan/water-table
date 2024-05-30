@@ -1,0 +1,195 @@
+// Vitest Snapshot v1
+
+exports[`MessageDetails > renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="custombp:items-start fixed left-0 top-0 z-50 flex h-[100vh] w-full justify-center overflow-scroll bg-[#000000] bg-opacity-50 text-left md:items-center"
+  >
+    <div
+      class="relative mx-2 w-full bg-white p-5 md:w-4/5"
+    >
+      <div
+        class="absolute right-6 top-6 cursor-pointer hover:text-red-800"
+      >
+        <svg
+          class="size-6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 18 18 6M6 6l12 12"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+      <h2
+        class="mb-4 text-base font-semibold text-gray-900"
+      >
+        Message
+      </h2>
+      <div
+        class="mb-4"
+      >
+        <div
+          class="mb-2 flex flex-row gap-2"
+        >
+          <dl
+            class="flex flex-grow basis-1/2 flex-col"
+          >
+            <dt
+              class="text-sm text-gray-500"
+            >
+              ID
+            </dt>
+            <dd
+              class="text-sm text-gray-900"
+            >
+              c19706c4-707b-4d42-9654-93248fd8d34c
+            </dd>
+          </dl>
+          <dl
+            class="mb-2 flex flex-grow basis-1/2 flex-col"
+          >
+            <dt
+              class="text-sm text-gray-500"
+            >
+              Sensor ID
+            </dt>
+            <dd
+              class="text-sm text-gray-900"
+            >
+              821ef78d-4b53-4bf4-83d5-686ad81deb48
+            </dd>
+          </dl>
+        </div>
+        <div
+          class="mb-2 flex flex-row"
+        >
+          <dl
+            class="flex flex-grow basis-1/2 flex-col"
+          >
+            <dt
+              class="text-sm text-gray-500"
+            >
+              Received (UTC)
+            </dt>
+            <dd
+              class="text-sm text-gray-900"
+            >
+              16 Jun 2019 15:00:25
+            </dd>
+          </dl>
+          <dl
+            class="flex flex-grow basis-1/2 flex-col"
+          >
+            <dt
+              class="text-sm text-gray-500"
+            >
+              Direction
+            </dt>
+            <dd
+              class="text-sm text-gray-900"
+            >
+              <svg
+                class="size-4 text-blue-600"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </dd>
+          </dl>
+        </div>
+        <div
+          class="flex flex-row"
+        >
+          <dl
+            class="flex flex-grow flex-col"
+          >
+            <dt
+              class="text-sm text-gray-500"
+            >
+              Size
+            </dt>
+            <dd
+              class="text-sm text-gray-900"
+            >
+              288 B
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-2 md:flex-row"
+      >
+        <div
+          class="basis-1/2"
+        >
+          <p
+            class="my-2 text-sm text-gray-500"
+          >
+            Location: 
+            <span
+              class="text-gray-900"
+            >
+              51° 12′ 19.52640″ N 1° 22′ 9.61320″ W
+            </span>
+          </p>
+          <div
+            data-testid="map"
+            style="width: 100%; height: 300px; position: relative; z-index: 0;"
+          />
+        </div>
+        <div
+          class="basis-1/2"
+        >
+          <p
+            class="my-2 text-sm text-gray-500"
+          >
+            Payload:
+          </p>
+          <pre
+            class="h-[300px] overflow-scroll rounded border border-gray-200 bg-gray-100 p-2 text-sm"
+          >
+            {
+  "temperature": {
+    "value": 3,
+    "unit": "C"
+  },
+  "height": {
+    "value": "4.13",
+    "unit": "M"
+  },
+  "speed": {
+    "value": "3.26",
+    "unit": "M/s"
+  },
+  "battery": {
+    "value": 98,
+    "unit": "%"
+  },
+  "alarm": false,
+  "state": "Rising",
+  "oxygen": {
+    "value": 50,
+    "unit": "mg/L"
+  }
+}
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

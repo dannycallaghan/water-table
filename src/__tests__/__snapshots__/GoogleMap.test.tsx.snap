@@ -1,0 +1,10 @@
+// Vitest Snapshot v1
+
+exports[`GoogleMap > renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="map"
+    style="width: 100%; height: 225px; position: relative; z-index: 0;"
+  />
+</DocumentFragment>
+`;

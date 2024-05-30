@@ -1,0 +1,29 @@
+// Vitest Snapshot v1
+
+exports[`BackToTop > renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="flex cursor-pointer flex-row items-center gap-1"
+  >
+    <p
+      class="text-[0.7rem] uppercase text-gray-400"
+    >
+      Back to top
+    </p>
+    <svg
+      class="size-3 text-gray-400"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.5"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </div>
+</DocumentFragment>
+`;

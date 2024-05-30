@@ -1,0 +1,20 @@
+svg {
+  width: 100%;
+  height: auto;
+}
+
+.axis-label {
+  font-size: 14px;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 6px;
+  background: white;
+  border: 1px solid #999;
+  border-radius: 3px;
+  pointer-events: none;
+  opacity: 0;
+  font-size: 12px;
+  transition: opacity 0.6s;
+}

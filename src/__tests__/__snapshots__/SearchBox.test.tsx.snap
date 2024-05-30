@@ -1,0 +1,23 @@
+// Vitest Snapshot v1
+
+exports[`SearchBox > renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="flex w-full max-w-56 flex-col"
+  >
+    <label
+      class="invisible text-[0.7rem] text-gray-400"
+      for="search-box"
+    >
+      Search identifiers
+    </label>
+    <input
+      class="h-8 w-full rounded border border-solid border-slate-300 p-1 text-[0.7rem] text-slate-600 focus:border-slate-300 focus:outline-none focus-visible:border-slate-300 active:border-slate-300"
+      defaultvalue="Hello"
+      id="search-box"
+      placeholder="Search identifiers"
+      type="text"
+    />
+  </div>
+</DocumentFragment>
+`;
