@@ -7,7 +7,7 @@ const TablePaginationControl = memo(function TablePaginationControl(props: {
   options: IPaginationOptions;
   hideDisplaySelect: boolean;
   filteredDataLength: number;
-  handlePaginationChange: (page: number, itemsPerPage?: number) => void;
+  handlePaginationChange: (page: number, itemsPerPage: number) => void;
 }) {
   const { initialDataLength, handlePaginationChange } = props;
   const {
