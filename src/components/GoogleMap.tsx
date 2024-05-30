@@ -30,7 +30,7 @@ function GoogleMap(props: {
 
   return (
     <>
-      <APIProvider apiKey={GOOGLE_API_KEY}>
+      <APIProvider apiKey={import.meta.env.VITE_GOOGLE_API_KEY}>
         <Map
           mapId={'de2fd94a6060890b'}
           defaultCenter={position}
