@@ -18,6 +18,8 @@ This project uses Vite. To start the application, please run:
 npm run dev
 ```
 
+Please note that a Google Maps API key (and a map ID matching the one used in the project) will be required to view the maps locally. They can be seen, however, in the above demo.
+
 ## Dependencies
 
 I've attempted to limit the amount of external dependencies as much as possible, but I did utilise the following:
