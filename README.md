@@ -2,7 +2,7 @@
 
 A demo can be viewed here:
 
-[http://localhost:5173/](http://localhost:5173/)
+[https://water-table.vercel.app/](https://water-table.vercel.app/)
 
 ## Run locally
 
